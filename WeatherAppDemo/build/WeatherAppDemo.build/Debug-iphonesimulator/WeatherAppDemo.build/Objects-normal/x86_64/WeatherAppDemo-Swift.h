@@ -173,6 +173,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if __has_feature(modules)
 @import UIKit;
+@import CoreLocation;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -200,14 +201,18 @@ SWIFT_CLASS("_TtC14WeatherAppDemo11AppDelegate")
 @end
 
 @class UILabel;
+@class CLLocationManager;
+@class CLLocation;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC14WeatherAppDemo14ViewController")
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <CLLocationManagerDelegate>
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified temperatureLabel;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified messageLabel;
 - (void)viewDidLoad;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didFailWithError:(NSError * _Nonnull)error;
 - (void)viewDidAppear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
