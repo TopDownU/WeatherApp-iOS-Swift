@@ -23,6 +23,7 @@ depends-top-level:
 - "CastingPrecedence"
 - !private "DispatchQueue"
 - "Error"
+- "Float"
 - !private "JSON"
 - !private "String"
 - !private "StringLiteralType"
@@ -35,6 +36,7 @@ depends-member:
 - !private ["Sa", "subscript"]
 - !private ["s23BidirectionalCollectionP", "init"]
 - !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["s19BinaryFloatingPointP", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["So15CALayerDelegateP", "text"]
 - !private ["So10CLLocationC", "coordinate"]
@@ -50,9 +52,11 @@ depends-member:
 - !private ["So25CLLocationManagerDelegateP", "Alamofire"]
 - !private ["So25CLLocationManagerDelegateP", "CLLocationManager"]
 - !private ["So25CLLocationManagerDelegateP", "DispatchQueue"]
+- !private ["So25CLLocationManagerDelegateP", "Float"]
 - !private ["So25CLLocationManagerDelegateP", "JSON"]
 - !private ["So25CLLocationManagerDelegateP", "String"]
 - !private ["So25CLLocationManagerDelegateP", "getLocation"]
+- !private ["So25CLLocationManagerDelegateP", "getWeather"]
 - !private ["So25CLLocationManagerDelegateP", "kCLLocationAccuracyBest"]
 - ["So25CLLocationManagerDelegateP", "locationManager"]
 - ["So25CLLocationManagerDelegateP", "locationManagerDidPauseLocationUpdates"]
@@ -64,6 +68,7 @@ depends-member:
 - !private ["s7CVarArgP", "Alamofire"]
 - !private ["s7CVarArgP", "CLLocationManager"]
 - !private ["s7CVarArgP", "DispatchQueue"]
+- !private ["s7CVarArgP", "Float"]
 - !private ["s7CVarArgP", "JSON"]
 - !private ["s7CVarArgP", "String"]
 - !private ["s7CVarArgP", "async"]
@@ -71,6 +76,7 @@ depends-member:
 - !private ["s7CVarArgP", "delegate"]
 - !private ["s7CVarArgP", "desiredAccuracy"]
 - !private ["s7CVarArgP", "getLocation"]
+- !private ["s7CVarArgP", "getWeather"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "kCLLocationAccuracyBest"]
 - ["s7CVarArgP", "locationManager"]
@@ -96,6 +102,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "Alamofire"]
 - !private ["s28CustomDebugStringConvertibleP", "CLLocationManager"]
 - !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "Float"]
 - !private ["s28CustomDebugStringConvertibleP", "JSON"]
 - !private ["s28CustomDebugStringConvertibleP", "String"]
 - !private ["s28CustomDebugStringConvertibleP", "async"]
@@ -104,6 +111,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "desiredAccuracy"]
 - !private ["s28CustomDebugStringConvertibleP", "failure"]
 - !private ["s28CustomDebugStringConvertibleP", "getLocation"]
+- !private ["s28CustomDebugStringConvertibleP", "getWeather"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "kCLLocationAccuracyBest"]
 - ["s28CustomDebugStringConvertibleP", "locationManager"]
@@ -134,6 +142,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "Alamofire"]
 - !private ["s23CustomStringConvertibleP", "CLLocationManager"]
 - !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- !private ["s23CustomStringConvertibleP", "Float"]
 - !private ["s23CustomStringConvertibleP", "JSON"]
 - !private ["s23CustomStringConvertibleP", "String"]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
@@ -143,6 +152,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "desiredAccuracy"]
 - !private ["s23CustomStringConvertibleP", "failure"]
 - !private ["s23CustomStringConvertibleP", "getLocation"]
+- !private ["s23CustomStringConvertibleP", "getWeather"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "kCLLocationAccuracyBest"]
 - ["s23CustomStringConvertibleP", "locationManager"]
@@ -181,6 +191,7 @@ depends-member:
 - !private ["s9EquatableP", "Alamofire"]
 - !private ["s9EquatableP", "CLLocationManager"]
 - !private ["s9EquatableP", "DispatchQueue"]
+- !private ["s9EquatableP", "Float"]
 - !private ["s9EquatableP", "JSON"]
 - !private ["s9EquatableP", "String"]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
@@ -190,6 +201,7 @@ depends-member:
 - !private ["s9EquatableP", "desiredAccuracy"]
 - !private ["s9EquatableP", "get"]
 - !private ["s9EquatableP", "getLocation"]
+- !private ["s9EquatableP", "getWeather"]
 - !private ["s9EquatableP", "init"]
 - !private ["s9EquatableP", "kCLLocationAccuracyBest"]
 - ["s9EquatableP", "locationManager"]
@@ -227,10 +239,13 @@ depends-member:
 - !private ["s26ExpressibleByStringLiteralP", "subscript"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "subscript"]
+- !private ["Sf", "init"]
+- !private ["s13FloatingPointP", "init"]
 - !private ["9Alamofire10HTTPMethodO", "get"]
 - !private ["s8HashableP", "Alamofire"]
 - !private ["s8HashableP", "CLLocationManager"]
 - !private ["s8HashableP", "DispatchQueue"]
+- !private ["s8HashableP", "Float"]
 - !private ["s8HashableP", "JSON"]
 - !private ["s8HashableP", "String"]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
@@ -240,6 +255,7 @@ depends-member:
 - !private ["s8HashableP", "desiredAccuracy"]
 - !private ["s8HashableP", "get"]
 - !private ["s8HashableP", "getLocation"]
+- !private ["s8HashableP", "getWeather"]
 - !private ["s8HashableP", "init"]
 - !private ["s8HashableP", "kCLLocationAccuracyBest"]
 - ["s8HashableP", "locationManager"]
@@ -267,10 +283,12 @@ depends-member:
 - !private ["So8NSCodingP", "Alamofire"]
 - !private ["So8NSCodingP", "CLLocationManager"]
 - !private ["So8NSCodingP", "DispatchQueue"]
+- !private ["So8NSCodingP", "Float"]
 - !private ["So8NSCodingP", "JSON"]
 - !private ["So8NSCodingP", "String"]
 - !private ["So8NSCodingP", "coordinate"]
 - !private ["So8NSCodingP", "getLocation"]
+- !private ["So8NSCodingP", "getWeather"]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "kCLLocationAccuracyBest"]
 - ["So8NSCodingP", "locationManager"]
@@ -288,9 +306,11 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "Alamofire"]
 - !private ["So26NSExtensionRequestHandlingP", "CLLocationManager"]
 - !private ["So26NSExtensionRequestHandlingP", "DispatchQueue"]
+- !private ["So26NSExtensionRequestHandlingP", "Float"]
 - !private ["So26NSExtensionRequestHandlingP", "JSON"]
 - !private ["So26NSExtensionRequestHandlingP", "String"]
 - !private ["So26NSExtensionRequestHandlingP", "getLocation"]
+- !private ["So26NSExtensionRequestHandlingP", "getWeather"]
 - !private ["So26NSExtensionRequestHandlingP", "init"]
 - !private ["So26NSExtensionRequestHandlingP", "kCLLocationAccuracyBest"]
 - ["So26NSExtensionRequestHandlingP", "locationManager"]
@@ -312,6 +332,7 @@ depends-member:
 - ["So8NSObjectC", "CLLocationManager"]
 - !private ["So8NSObjectC", "DispatchQueue"]
 - ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", "Float"]
 - !private ["So8NSObjectC", "JSON"]
 - !private ["So8NSObjectC", "String"]
 - ["So8NSObjectC", "UILabel"]
@@ -320,6 +341,7 @@ depends-member:
 - !private ["So8NSObjectC", "delegate"]
 - !private ["So8NSObjectC", "desiredAccuracy"]
 - ["So8NSObjectC", "getLocation"]
+- ["So8NSObjectC", "getWeather"]
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "kCLLocationAccuracyBest"]
 - ["So8NSObjectC", "locationManager"]
@@ -340,6 +362,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "Alamofire"]
 - !private ["So16NSObjectProtocolP", "CLLocationManager"]
 - !private ["So16NSObjectProtocolP", "DispatchQueue"]
+- !private ["So16NSObjectProtocolP", "Float"]
 - !private ["So16NSObjectProtocolP", "JSON"]
 - !private ["So16NSObjectProtocolP", "String"]
 - !private ["So16NSObjectProtocolP", "async"]
@@ -347,6 +370,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "delegate"]
 - !private ["So16NSObjectProtocolP", "desiredAccuracy"]
 - !private ["So16NSObjectProtocolP", "getLocation"]
+- !private ["So16NSObjectProtocolP", "getWeather"]
 - !private ["So16NSObjectProtocolP", "init"]
 - !private ["So16NSObjectProtocolP", "kCLLocationAccuracyBest"]
 - ["So16NSObjectProtocolP", "locationManager"]
@@ -367,6 +391,7 @@ depends-member:
 - !private ["So14NSSecureCodingP", "coordinate"]
 - !private ["So14NSSecureCodingP", "init"]
 - !private ["So8NSStringC", "init"]
+- !private ["s7NumericP", "init"]
 - !private ["So9OS_objectC", "async"]
 - !private ["So9OS_objectC", "main"]
 - !private ["s22RandomAccessCollectionP", "subscript"]
@@ -382,7 +407,9 @@ depends-member:
 - !private ["9Alamofire6ResultO", "success"]
 - !private ["s8SequenceP", "init"]
 - !private ["s8SequenceP", "subscript"]
+- !private ["s13SignedNumericP", "init"]
 - !private ["s5SliceV", "subscript"]
+- !private ["s10StrideableP", "init"]
 - !private ["SS", "init"]
 - !private ["s14StringProtocolP", "init"]
 - !private ["s16TextOutputStreamP", "init"]
@@ -392,9 +419,11 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "Alamofire"]
 - !private ["So21UIAppearanceContainerP", "CLLocationManager"]
 - !private ["So21UIAppearanceContainerP", "DispatchQueue"]
+- !private ["So21UIAppearanceContainerP", "Float"]
 - !private ["So21UIAppearanceContainerP", "JSON"]
 - !private ["So21UIAppearanceContainerP", "String"]
 - !private ["So21UIAppearanceContainerP", "getLocation"]
+- !private ["So21UIAppearanceContainerP", "getWeather"]
 - !private ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "kCLLocationAccuracyBest"]
 - ["So21UIAppearanceContainerP", "locationManager"]
@@ -410,9 +439,11 @@ depends-member:
 - !private ["So18UIContentContainerP", "Alamofire"]
 - !private ["So18UIContentContainerP", "CLLocationManager"]
 - !private ["So18UIContentContainerP", "DispatchQueue"]
+- !private ["So18UIContentContainerP", "Float"]
 - !private ["So18UIContentContainerP", "JSON"]
 - !private ["So18UIContentContainerP", "String"]
 - !private ["So18UIContentContainerP", "getLocation"]
+- !private ["So18UIContentContainerP", "getWeather"]
 - !private ["So18UIContentContainerP", "init"]
 - !private ["So18UIContentContainerP", "kCLLocationAccuracyBest"]
 - ["So18UIContentContainerP", "locationManager"]
@@ -430,9 +461,11 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "Alamofire"]
 - !private ["So18UIFocusEnvironmentP", "CLLocationManager"]
 - !private ["So18UIFocusEnvironmentP", "DispatchQueue"]
+- !private ["So18UIFocusEnvironmentP", "Float"]
 - !private ["So18UIFocusEnvironmentP", "JSON"]
 - !private ["So18UIFocusEnvironmentP", "String"]
 - !private ["So18UIFocusEnvironmentP", "getLocation"]
+- !private ["So18UIFocusEnvironmentP", "getWeather"]
 - !private ["So18UIFocusEnvironmentP", "init"]
 - !private ["So18UIFocusEnvironmentP", "kCLLocationAccuracyBest"]
 - ["So18UIFocusEnvironmentP", "locationManager"]
@@ -450,9 +483,11 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "Alamofire"]
 - !private ["So30UIPasteConfigurationSupportingP", "CLLocationManager"]
 - !private ["So30UIPasteConfigurationSupportingP", "DispatchQueue"]
+- !private ["So30UIPasteConfigurationSupportingP", "Float"]
 - !private ["So30UIPasteConfigurationSupportingP", "JSON"]
 - !private ["So30UIPasteConfigurationSupportingP", "String"]
 - !private ["So30UIPasteConfigurationSupportingP", "getLocation"]
+- !private ["So30UIPasteConfigurationSupportingP", "getWeather"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "kCLLocationAccuracyBest"]
 - ["So30UIPasteConfigurationSupportingP", "locationManager"]
@@ -472,10 +507,12 @@ depends-member:
 - ["So11UIResponderC", "CLLocationManager"]
 - !private ["So11UIResponderC", "DispatchQueue"]
 - ["So11UIResponderC", "Error"]
+- ["So11UIResponderC", "Float"]
 - !private ["So11UIResponderC", "JSON"]
 - !private ["So11UIResponderC", "String"]
 - ["So11UIResponderC", "UILabel"]
 - ["So11UIResponderC", "getLocation"]
+- ["So11UIResponderC", "getWeather"]
 - ["So11UIResponderC", "init"]
 - !private ["So11UIResponderC", "kCLLocationAccuracyBest"]
 - ["So11UIResponderC", "locationManager"]
@@ -491,9 +528,11 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "Alamofire"]
 - !private ["So30UIResponderStandardEditActionsP", "CLLocationManager"]
 - !private ["So30UIResponderStandardEditActionsP", "DispatchQueue"]
+- !private ["So30UIResponderStandardEditActionsP", "Float"]
 - !private ["So30UIResponderStandardEditActionsP", "JSON"]
 - !private ["So30UIResponderStandardEditActionsP", "String"]
 - !private ["So30UIResponderStandardEditActionsP", "getLocation"]
+- !private ["So30UIResponderStandardEditActionsP", "getWeather"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "kCLLocationAccuracyBest"]
 - ["So30UIResponderStandardEditActionsP", "locationManager"]
@@ -509,9 +548,11 @@ depends-member:
 - !private ["So16UIStateRestoringP", "Alamofire"]
 - !private ["So16UIStateRestoringP", "CLLocationManager"]
 - !private ["So16UIStateRestoringP", "DispatchQueue"]
+- !private ["So16UIStateRestoringP", "Float"]
 - !private ["So16UIStateRestoringP", "JSON"]
 - !private ["So16UIStateRestoringP", "String"]
 - !private ["So16UIStateRestoringP", "getLocation"]
+- !private ["So16UIStateRestoringP", "getWeather"]
 - !private ["So16UIStateRestoringP", "init"]
 - !private ["So16UIStateRestoringP", "kCLLocationAccuracyBest"]
 - ["So16UIStateRestoringP", "locationManager"]
@@ -526,9 +567,11 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "Alamofire"]
 - !private ["So18UITraitEnvironmentP", "CLLocationManager"]
 - !private ["So18UITraitEnvironmentP", "DispatchQueue"]
+- !private ["So18UITraitEnvironmentP", "Float"]
 - !private ["So18UITraitEnvironmentP", "JSON"]
 - !private ["So18UITraitEnvironmentP", "String"]
 - !private ["So18UITraitEnvironmentP", "getLocation"]
+- !private ["So18UITraitEnvironmentP", "getWeather"]
 - !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "kCLLocationAccuracyBest"]
 - ["So18UITraitEnvironmentP", "locationManager"]
@@ -549,10 +592,12 @@ depends-member:
 - ["So16UIViewControllerC", "CLLocationManager"]
 - !private ["So16UIViewControllerC", "DispatchQueue"]
 - ["So16UIViewControllerC", "Error"]
+- ["So16UIViewControllerC", "Float"]
 - !private ["So16UIViewControllerC", "JSON"]
 - !private ["So16UIViewControllerC", "String"]
 - ["So16UIViewControllerC", "UILabel"]
 - ["So16UIViewControllerC", "getLocation"]
+- ["So16UIViewControllerC", "getWeather"]
 - ["So16UIViewControllerC", "init"]
 - !private ["So16UIViewControllerC", "kCLLocationAccuracyBest"]
 - ["So16UIViewControllerC", "locationManager"]
@@ -573,11 +618,13 @@ depends-member:
 - ["14WeatherAppDemo14ViewControllerC", "CLLocationManager"]
 - !private ["14WeatherAppDemo14ViewControllerC", "DispatchQueue"]
 - ["14WeatherAppDemo14ViewControllerC", "Error"]
+- ["14WeatherAppDemo14ViewControllerC", "Float"]
 - !private ["14WeatherAppDemo14ViewControllerC", "JSON"]
 - !private ["14WeatherAppDemo14ViewControllerC", "String"]
 - ["14WeatherAppDemo14ViewControllerC", "UILabel"]
 - ["14WeatherAppDemo14ViewControllerC", "deinit"]
 - ["14WeatherAppDemo14ViewControllerC", "getLocation"]
+- ["14WeatherAppDemo14ViewControllerC", "getWeather"]
 - ["14WeatherAppDemo14ViewControllerC", "init"]
 - !private ["14WeatherAppDemo14ViewControllerC", "kCLLocationAccuracyBest"]
 - ["14WeatherAppDemo14ViewControllerC", "locationManager"]
@@ -592,10 +639,14 @@ depends-member:
 - !private ["s14_ArrayProtocolP", "subscript"]
 - !private ["s23_BidirectionalIndexableP", "init"]
 - !private ["s23_BidirectionalIndexableP", "subscript"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
@@ -608,6 +659,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Alamofire"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CLLocationManager"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Float"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "JSON"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
@@ -615,6 +667,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "desiredAccuracy"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "getLocation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getWeather"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "kCLLocationAccuracyBest"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "locationManager"]
@@ -641,10 +694,12 @@ depends-member:
 - !private ["s22_RandomAccessIndexableP", "subscript"]
 - !private ["s26_RangeReplaceableIndexableP", "init"]
 - !private ["s26_RangeReplaceableIndexableP", "subscript"]
+- !private ["s11_StrideableP", "init"]
 - !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - !private "Sa"
 - !private "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
 - !private "Sb"
 - !private "So15CALayerDelegateP"
 - !private "So10CLLocationC"
@@ -674,6 +729,8 @@ depends-nominal:
 - !private "s23ExpressibleByNilLiteralP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "Sf"
+- !private "s13FloatingPointP"
 - !private "9Alamofire10HTTPMethodO"
 - "s8HashableP"
 - !private "10SwiftyJSON0B0V"
@@ -691,6 +748,7 @@ depends-nominal:
 - "So16NSObjectProtocolP"
 - !private "So14NSSecureCodingP"
 - !private "So8NSStringC"
+- !private "s7NumericP"
 - !private "So9OS_objectC"
 - !private "s22RandomAccessCollectionP"
 - !private "s26RangeReplaceableCollectionP"
@@ -699,7 +757,9 @@ depends-nominal:
 - !private "9Alamofire8ResponseP"
 - !private "9Alamofire6ResultO"
 - !private "s8SequenceP"
+- !private "s13SignedNumericP"
 - !private "s5SliceV"
+- !private "s10StrideableP"
 - !private "SS"
 - !private "s14StringProtocolP"
 - !private "s16TextOutputStreamP"
@@ -725,10 +785,14 @@ depends-nominal:
 - "14WeatherAppDemo14ViewControllerC"
 - !private "s14_ArrayProtocolP"
 - !private "s23_BidirectionalIndexableP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
 - !private "s37_DefaultCustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
@@ -741,6 +805,7 @@ depends-nominal:
 - !private "s21_ObjectiveCBridgeableP"
 - !private "s22_RandomAccessIndexableP"
 - !private "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
 - !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
@@ -767,4 +832,4 @@ depends-external:
 - "/Users/Vidyadhar/Desktop/Github/WeatherApp-iOS-Swift/WeatherAppDemo/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/Vidyadhar/Desktop/Github/WeatherApp-iOS-Swift/WeatherAppDemo/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
 - "/Users/Vidyadhar/Desktop/Github/WeatherApp-iOS-Swift/WeatherAppDemo/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
-interface-hash: "b5e3e86301d0747f0ae10a417e7215ca"
+interface-hash: "b24e01bd281e4bb770cab6fd3bb0501b"

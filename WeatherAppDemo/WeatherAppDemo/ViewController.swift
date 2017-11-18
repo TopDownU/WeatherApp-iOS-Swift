@@ -37,21 +37,16 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
 
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]){
         let userLocation:CLLocation = locations[0] as CLLocation
-
         manager.stopUpdatingLocation()
-        
-        print("user latitude = \(userLocation.coordinate.latitude)")
-        print("user longitude = \(userLocation.coordinate.longitude)")
+        self.getWeather(lat: Float(userLocation.coordinate.latitude), lon: Float(userLocation.coordinate.longitude))
     }
 
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
         print(error)
     }
  
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(true)
-
-        Alamofire.request("https://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&APPID=dbdae2e74aa31222a99c74a1a01923b6", method: .get).validate().responseJSON { response in
+    func getWeather(lat : Float, lon : Float){
+        Alamofire.request("https://api.openweathermap.org/data/2.5/weather?lat=\(lat)&lon=\(lon)&APPID=dbdae2e74aa31222a99c74a1a01923b6", method: .get).validate().responseJSON { response in
             switch response.result {
             case .success(let value):
                 let json = JSON(value)
@@ -65,7 +60,11 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
                 print(error)
             }
         }
+    }
         
+        
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(true)
     }
 
 }
