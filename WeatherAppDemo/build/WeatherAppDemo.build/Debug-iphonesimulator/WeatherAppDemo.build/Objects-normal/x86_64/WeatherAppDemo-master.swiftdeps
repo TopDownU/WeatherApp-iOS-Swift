@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.0.2 (swiftlang-900.0.69.2 clang-900.0.38)"
+options: "01c632f095bf503250f735bfd837f627"
+build_time: [1511034919, 499774000]
+inputs:
+  "/Users/Vidyadhar/Desktop/Github/WeatherApp-iOS-Swift/WeatherAppDemo/WeatherAppDemo/ViewController.swift": [1511034918, 0]
+  "/Users/Vidyadhar/Desktop/Github/WeatherApp-iOS-Swift/WeatherAppDemo/WeatherAppDemo/AppDelegate.swift": [1511030844, 0]

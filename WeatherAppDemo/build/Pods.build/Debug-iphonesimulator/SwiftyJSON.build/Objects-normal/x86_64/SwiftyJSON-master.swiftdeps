@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.0.2 (swiftlang-900.0.69.2 clang-900.0.38)"
+options: "238eefebbacf0ff4d10e49ab083b8935"
+build_time: [1511031169, 135088000]
+inputs:
+  "/Users/Vidyadhar/Desktop/Github/WeatherApp-iOS-Swift/WeatherAppDemo/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [1511031166, 0]

@@ -1,0 +1,87 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/Vidyadhar/Desktop/Github/WeatherApp-iOS-Swift/WeatherAppDemo/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Alamofire-Swift.h",
+          'external-contents': "/Users/Vidyadhar/Desktop/Github/WeatherApp-iOS-Swift/WeatherAppDemo/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Alamofire-umbrella.h",
+          'external-contents': "/Users/Vidyadhar/Desktop/Github/WeatherApp-iOS-Swift/WeatherAppDemo/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Vidyadhar/Desktop/Github/WeatherApp-iOS-Swift/WeatherAppDemo/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Vidyadhar/Desktop/Github/WeatherApp-iOS-Swift/WeatherAppDemo/build/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Vidyadhar/Desktop/Github/WeatherApp-iOS-Swift/WeatherAppDemo/build/Debug-iphonesimulator/Pods_WeatherAppDemo.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-WeatherAppDemo-umbrella.h",
+          'external-contents': "/Users/Vidyadhar/Desktop/Github/WeatherApp-iOS-Swift/WeatherAppDemo/Pods/Target Support Files/Pods-WeatherAppDemo/Pods-WeatherAppDemo-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_WeatherAppDemo-Swift.h",
+          'external-contents': "/Users/Vidyadhar/Desktop/Github/WeatherApp-iOS-Swift/WeatherAppDemo/build/Debug-iphonesimulator/Pods_WeatherAppDemo.framework/Headers/Pods_WeatherAppDemo-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Vidyadhar/Desktop/Github/WeatherApp-iOS-Swift/WeatherAppDemo/build/Debug-iphonesimulator/Pods_WeatherAppDemo.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Vidyadhar/Desktop/Github/WeatherApp-iOS-Swift/WeatherAppDemo/build/Pods.build/Debug-iphonesimulator/Pods-WeatherAppDemo.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Vidyadhar/Desktop/Github/WeatherApp-iOS-Swift/WeatherAppDemo/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-Swift.h",
+          'external-contents': "/Users/Vidyadhar/Desktop/Github/WeatherApp-iOS-Swift/WeatherAppDemo/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-umbrella.h",
+          'external-contents': "/Users/Vidyadhar/Desktop/Github/WeatherApp-iOS-Swift/WeatherAppDemo/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Vidyadhar/Desktop/Github/WeatherApp-iOS-Swift/WeatherAppDemo/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Vidyadhar/Desktop/Github/WeatherApp-iOS-Swift/WeatherAppDemo/build/Pods.build/Debug-iphonesimulator/SwiftyJSON.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
